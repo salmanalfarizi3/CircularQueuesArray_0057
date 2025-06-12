@@ -27,4 +27,9 @@ class Queues
             cout << "\nQueue overflow\n"; 
             retrun;
         }
-        
+        if ( FRONT == -1)
+        {
+            FRONT =0;
+            REAR =0;
+        }
+       
